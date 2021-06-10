@@ -1,10 +1,10 @@
 
-import 'package:flutter_graphql/core/model/result/result.dart';
-import 'package:flutter_graphql/core/network/connectivity_manager.dart';
-import 'package:flutter_graphql/data/mapper/character_response_entity_mapper.dart';
-import 'package:flutter_graphql/data/remote/datasource/remote_data_source.dart';
-import 'package:flutter_graphql/domain/entity/character.dart';
-import 'package:flutter_graphql/domain/repository/character_repository.dart';
+import 'package:common/network/connectivity_manager.dart';
+import 'package:data/mapper/character_response_entity_mapper.dart';
+import 'package:data/remote/datasource/remote_data_source.dart';
+import 'package:domain/entity/character.dart';
+import 'package:domain/repository/character_repository.dart';
+import 'package:domain/utils/result_state/result.dart';
 
 class CharacterRepositoryImpl implements CharacterRepository {
   final RemoteDataSource remoteDataSource;

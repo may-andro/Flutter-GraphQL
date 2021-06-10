@@ -1,6 +1,6 @@
-import 'package:flutter_graphql/core/mapper/entity_model_mapper.dart';
-import 'package:flutter_graphql/data/model/character_response.dart';
-import 'package:flutter_graphql/domain/entity/character.dart';
+import 'package:common/mapper/entity_model_mapper.dart';
+import 'package:data/model/character_response.dart';
+import 'package:domain/entity/character.dart';
 
 class CharacterResponseEntityMapper extends ObjectMapper<CharacterResponse, Character> {
   @override

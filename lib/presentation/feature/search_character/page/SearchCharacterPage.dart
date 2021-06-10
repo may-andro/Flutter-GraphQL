@@ -1,8 +1,8 @@
+import 'package:domain/entity/character.dart';
+import 'package:domain/utils/result_state/result.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_graphql/core/bloc/bloc_provider.dart';
-import 'package:flutter_graphql/core/model/result/result.dart';
 import 'package:flutter_graphql/di/locator.dart';
-import 'package:flutter_graphql/domain/entity/character.dart';
+import 'package:flutter_graphql/presentation/bloc/bloc_provider.dart';
 import 'package:flutter_graphql/presentation/feature/search_character/bloc/SearchCharacterBloc.dart';
 
 class SearchCharacterPage extends StatefulWidget {

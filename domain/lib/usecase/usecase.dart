@@ -1,4 +1,4 @@
-import 'package:flutter_graphql/core/model/result/result.dart';
+import 'package:domain/utils/result_state/result.dart';
 
 abstract class UseCase<Param, T> {
 	Future<Result<T>> call(Param param);

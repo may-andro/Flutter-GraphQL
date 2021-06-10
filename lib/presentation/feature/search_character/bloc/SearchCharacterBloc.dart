@@ -1,7 +1,7 @@
-import 'package:flutter_graphql/core/bloc/bloc_provider.dart';
-import 'package:flutter_graphql/core/model/result/result.dart';
-import 'package:flutter_graphql/domain/entity/character.dart';
-import 'package:flutter_graphql/domain/usecase/get_character_usecase.dart';
+import 'package:domain/entity/character.dart';
+import 'package:domain/usecase/get_character_usecase.dart';
+import 'package:domain/utils/result_state/result.dart';
+import 'package:flutter_graphql/presentation/bloc/bloc_provider.dart';
 import 'package:rxdart/rxdart.dart';
 
 class SearchCharacterBloc extends BlocBase {

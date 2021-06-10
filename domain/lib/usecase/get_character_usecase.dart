@@ -1,8 +1,7 @@
-
-import 'package:flutter_graphql/core/model/result/result.dart';
-import 'package:flutter_graphql/core/usecase/usecase.dart';
-import 'package:flutter_graphql/domain/entity/character.dart';
-import 'package:flutter_graphql/domain/repository/character_repository.dart';
+import 'package:domain/entity/character.dart';
+import 'package:domain/repository/character_repository.dart';
+import 'package:domain/usecase/usecase.dart';
+import 'package:domain/utils/result_state/result.dart';
 
 class GetCharacterUseCase extends UseCase<GetCharacterParam, Character> {
   final CharacterRepository repository;
