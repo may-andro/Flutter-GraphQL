@@ -1,4 +1,4 @@
-# flutter_graphql
+# Flutter Layer Modularization with GraphQL
 
 A new Flutter project for GraphQL setup in project. The project also demonstrate the layer based modularization inspired from Yigit Boyar: https://www.youtube.com/watch?v=PZBg5DIzNww
 
