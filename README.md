@@ -1,6 +1,6 @@
 # flutter_graphql
 
-A new Flutter project for GraphQL setup in project.
+A new Flutter project for GraphQL setup in project. The project also demonstrate the layer based modularization inspired from Yigit Boyar: https://www.youtube.com/watch?v=PZBg5DIzNww
 
 ## Concept Used
 
@@ -10,6 +10,8 @@ Following concept has been used in the app:
 3. Clean Arch.
 4. State Management
 5. Dependency Injection
+6. Layer Modularization.
+7. Test Case(Pending)
 
 ## Library Used
 graphql: 5.0.0-nullsafety.5
